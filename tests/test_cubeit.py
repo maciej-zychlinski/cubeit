@@ -1,7 +1,7 @@
 from playwright.sync_api import Page, expect
 
 
-BASE_URL = "http://127.0.0.1:8000/cubit"
+BASE_URL = "http://127.0.0.1:8000/cubeit"
 
 
 def test_cube(page: Page):
