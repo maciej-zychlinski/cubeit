@@ -1,7 +1,7 @@
 from playwright.sync_api import Page, expect
 
 
-BASE_URL = "http://127.0.0.1:8000"
+BASE_URL = "https://cubeit.onrender.com"
 
 
 def test_cube(page: Page):
